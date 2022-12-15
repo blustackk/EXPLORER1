@@ -19,36 +19,36 @@ function processMenu() {
       title: 'blockchains',
       children: blockchains,
       tag: `${blockchains.length}`,
-      icon: 'https://explorer.jambulmerah.dev/logo.svg',
+      icon: 'https://spt-explorer.vercel.app/logo.svg',
     })
   }
   chainMenus.push({ header: 'LINKS' })
   if (isTestnet()) {
     chainMenus.push({
       title: 'Explorer',
-      href: 'https://explorer.jambulmerah.dev',
+      href: 'https://spt-explorer.vercel.app',
       icon: 'ChromeIcon',
     })
   } else {
     chainMenus.push({
       title: 'Website',
-      href: 'https://jambulmerah.dev',
+      href: 'https://spt-explorer.vercel.app',
       icon: 'LifeBuoyIcon',
     })
   }
   chainMenus.push({
     title: 'Github',
-    href: 'https://github.com/jambulmerah',
+    href: 'https://github.com/sipalingtestnet',
     icon: 'GithubIcon',
   })
   chainMenus.push({
     title: 'Twitter',
-    href: 'https://twitter.com/jambulmerah_',
+    href: 'https://twitter.com/testnethunter_',
     icon: 'TwitterIcon',
   })
   chainMenus.push({
     title: 'Telegram',
-    href: 'https://t.me/jambul_merah',
+    href: 'https://t.me/ssipalingtestnet',
     icon: 'SendIcon',
   })
 
