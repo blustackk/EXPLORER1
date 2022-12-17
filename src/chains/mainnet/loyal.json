@@ -1,51 +1,19 @@
 {
-	"chainId": "loyal-1",
-	"chainName": "loyal",
-	"rpc": "https://main-rpc.joinloyal.io",
-	"rest": "https://main-lcd.joinloyal.io",
-	"bip44": {
-		"coinType": "118"
-	},
-	"coinType": "118",
-	"bech32Config": {
-		"bech32PrefixAccAddr": "loyal",
-		"bech32PrefixAccPub": "loyalpub",
-		"bech32PrefixValAddr": "loyalvaloper",
-		"bech32PrefixValPub": "loyalvaloperpub",
-		"bech32PrefixConsAddr": "loyalvalcons",
-		"bech32PrefixConsPub": "loyalvalconspub"
-	},
-	"currencies": [
-		{
-			"coinDenom": "LYL",
-			"coinMinimalDenom": "ulyl",
-			"coinDecimals": "6",
-			"coinGeckoId": "loyal"
-		}
-	],
-	"feeCurrencies": [
-		{
-			"coinDenom": "LYL",
-			"coinMinimalDenom": "ulyl",
-			"coinDecimals": "6",
-			"coinGeckoId": "loyal",
-			"gasPriceStep": {
-				"low": 0.01,
-				"average": 0.025,
-				"high": 0.03
-			}
-		}
-	],
-	"gasPriceStep": {
-		"low": 0.01,
-		"average": 0.025,
-		"high": 0.03
-	},
-	"stakeCurrency": {
-		"coinDenom": "LYL",
-		"coinMinimalDenom": "ulyl",
-		"coinDecimals": "6",
-		"coinGeckoId": "loyal"
-	},
-	"features": []
+    "chain_name": "loyal",
+    "coingecko": "",
+    "api": ["https://main-lcd.joinloyal.io/",
+    "rpc": ["https://main-rpc.joinloyal.io/", 
+    "snapshot_provider": "",
+    "sdk_version": "0.44.3",
+    "coin_type": "118",
+    "min_tx_fee": "200",
+    "addr_prefix": "deweb",
+    "logo": "/logos/loyal.png",
+    "assets": [{
+        "base": "unls",
+        "symbol": "LYL",
+        "exponent": "6",
+        "coingecko_id": "",
+        "logo": "/logos/loyal.png"
+    }]
 }
