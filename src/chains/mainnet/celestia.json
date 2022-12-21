@@ -1,7 +1,7 @@
 {
     "chain_name": "celestia",
     "coingecko": "",
-    "api": "https://celestia-testnet.rpc.kjnodes.com/",
+    "api": " https://celestia-testnet.api.kjnodes.com",
     "rpc": "https://celestia-testnet.rpc.kjnodes.com/",
     "snapshot_provider": "",
     "sdk_version": "0.44.0",
