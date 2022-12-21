@@ -10,8 +10,8 @@
     "addr_prefix": "celestia",
     "logo": "/logos/celestia.png",
     "assets": [{
-        "base": "celes",
-        "symbol": "CELES",
+        "base": "tia",
+        "symbol": "TIA",
         "exponent": "0",
         "coingecko_id": "",
         "logo": "/logos/celestia.png"
