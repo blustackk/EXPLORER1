@@ -1,19 +1,17 @@
 {
-    "chain_name": "SGE-TESTNET-1",
+    "chain_name": "sge-testnet",
     "coingecko": "",
-    "api": ["https://sge.api.yeksin.net/"],
-    "rpc": ["https://sge.rpc.yeksin.net/"],
-    "snapshot_provider": "",
-    "sdk_version": "0.45.4",
+    "api": ["https://test-sge-api.genznodes.dev"],
+    "rpc": ["https://test-sge-rpc.genznodes.dev"],
+    "sdk_version": "v0.45.5",
     "coin_type": "118",
     "min_tx_fee": "200",
-    "addr_prefix": "deweb",
-    "logo": "/logos/sge.png",
+    "addr_prefix": "sge",
+    "logo": "/logos/sge.jpg",
     "assets": [{
-        "base": "unls",
+        "base": "usge",
         "symbol": "SGE",
         "exponent": "6",
-        "coingecko_id": "",
-        "logo": "/logos/sge.png"
+        "logo": "/logos/sge.jpg"
     }]
 }
