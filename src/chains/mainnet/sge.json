@@ -1,51 +1,17 @@
 {
-	"chainId": "sge-testnet-1",
-	"chainName": "sge-testnet",
-	"rpc": "https://sge.rpc.yeksin.net",
-	"rest": "https://sge.api.yeksin.net",
-	"bip44": {
-		"coinType": 909
-	},
-	"coinType": 909,
-	"bech32Config": {
-		"bech32PrefixAccAddr": "sge",
-		"bech32PrefixAccPub": "sgepub",
-		"bech32PrefixValAddr": "sgevaloper",
-		"bech32PrefixValPub": "sgevaloperpub",
-		"bech32PrefixConsAddr": "sgevalcons",
-		"bech32PrefixConsPub": "sgevalconspub"
-	},
-	"currencies": [
-		{
-			"coinDenom": "SGE",
-			"coinMinimalDenom": "usge",
-			"coinDecimals": 6,
-			"coinGeckoId": "unknown"
-		}
-	],
-	"feeCurrencies": [
-		{
-			"coinDenom": "SGE",
-			"coinMinimalDenom": "usge",
-			"coinDecimals": 6,
-			"coinGeckoId": "unknown",
-			"gasPriceStep": {
-				"low": 0.01,
-				"average": 0.025,
-				"high": 0.03
-			}
-		}
-	],
-	"gasPriceStep": {
-		"low": 0.01,
-		"average": 0.025,
-		"high": 0.03
-	},
-	"stakeCurrency": {
-		"coinDenom": "SGE",
-		"coinMinimalDenom": "usge",
-		"coinDecimals": 6,
-		"coinGeckoId": "unknown"
-	},
-	"features": []
+    "chain_name": "sge-testnet",
+    "coingecko": "",
+    "api": ["https://test-sge-api.genznodes.dev"],
+    "rpc": ["https://test-sge-rpc.genznodes.dev"],
+    "sdk_version": "v0.45.5",
+    "coin_type": "118",
+    "min_tx_fee": "200",
+    "addr_prefix": "sge",
+    "logo": "/logos/sge.png",
+    "assets": [{
+        "base": "usge",
+        "symbol": "SGE",
+        "exponent": "6",
+        "logo": "/logos/sge.jpg"
+    }]
 }
