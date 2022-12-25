@@ -1,0 +1,19 @@
+{
+    "chain_name": "SGE-TESTNET-1",
+    "coingecko": "",
+    "api": ["https://sge.api.yeksin.net/"],
+    "rpc": ["https://sge.rpc.yeksin.net/"],
+    "snapshot_provider": "",
+    "sdk_version": "0.45.4",
+    "coin_type": "118",
+    "min_tx_fee": "200",
+    "addr_prefix": "deweb",
+    "logo": "/logos/sge.png",
+    "assets": [{
+        "base": "unls",
+        "symbol": "SGE",
+        "exponent": "6",
+        "coingecko_id": "",
+        "logo": "/logos/sge.png"
+    }]
+}
