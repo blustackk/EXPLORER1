@@ -1,7 +1,7 @@
 {
     "chain_name": "mars",
-    "api": ["http://api-testnet.mars.spt-node.my.id/"],
-    "rpc": ["http://rpc-testnet.mars.spt-node.my.id/"],
+    "api": ["api-testnet.mars.spt-node.my.id"],
+    "rpc": ["rpc-testnet.mars.spt-node.my.id"],
     "snapshot_provider": "",
     "sdk_version": "0.46.7",
     "coin_type": "118",
