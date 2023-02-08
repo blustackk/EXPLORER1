@@ -7,13 +7,13 @@
         <h1
           class="text-primary display-4 font-weight-bolder d-none d-md-block"
         >
-          Explorer.SIPALING TESTNET<small class="flow-left">.dev</small>
+          Explorer.blustackkk<small class="flow-left">.dev</small>
         </h1>
       </div>
     </b-link>
 
     <p class="mb-1">
-      SipalingTestnet Explorer is not just an explorer but also a wallet and more ... 🛠
+      blustackkk Explorer is not just an explorer but also a wallet and more ... 🛠
       <br>
       Powered By<b-link
         class="ml-25 font-weight-bolder"
