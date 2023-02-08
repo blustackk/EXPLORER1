@@ -7,7 +7,7 @@
         <h1
           class="text-primary display-4 font-weight-bolder d-none d-md-block"
         >
-          Explorer.SIPALING TESTNET<small class="flow-left">.dev</small>
+          Explorer.blustackkk<small class="flow-left">.dev</small>
         </h1>
       </div>
     </b-link>
